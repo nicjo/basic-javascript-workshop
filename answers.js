@@ -49,4 +49,28 @@ function multiply(number1, number2) {
 multiply(12,30)
 
 
-// Two numbers and a string
+// Two numbers and a string and calculate depending on the string.
+// It isn't giving negative numbers. For example: (3,4,"substract") returns "0" instead of "-1"
+function calc(number1, number2, theString) {
+    
+    if (theString === "add") {
+        return(number1 + number2);
+    } 
+    else if (theString === "subtract") {
+        return(number1 - number2);
+    } 
+    else if (theString === "mult") {
+        return(number1 * number2);
+    } 
+    else if (theString === "div") {
+        return(number1 / number2);
+    } 
+    else {
+        return(0);
+    }
+};
+
+calc(3,4,"mult")
+
+
+//
