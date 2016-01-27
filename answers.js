@@ -77,7 +77,6 @@ calc(3,4,"mult")
 // Thanks for the help Codrin!
 // Maybe possibly finally beginning to understand?!... for (this many times) loop {this thing}
 // If you read this and I'm wrong (or right), let me know!
-
 function repeater(theString, number) {
     var result = ""
     for (var i = 1; i <= number; i++) {
@@ -85,4 +84,19 @@ function repeater(theString, number) {
     }
     console.log(result)
 }
+
+repeater("hello")
+
+
+// Reverse a string
+function reverse(theString) {
+     var backwards = "";
+     for (var i = theString.length - 1; i >= 0; i--) {
+         backwards = (backwards + theString[i]);
+     }
+  console.log(backwards);  
+}
+
+reverse("hello")
+
 
