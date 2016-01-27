@@ -73,4 +73,16 @@ function calc(number1, number2, theString) {
 calc(3,4,"mult")
 
 
-//
+// Input string and number. String gets repeated by the number.
+// Thanks for the help Codrin!
+// Maybe possibly finally beginning to understand?!... for (this many times) loop {this thing}
+// If you read this and I'm wrong (or right), let me know!
+
+function repeater(theString, number) {
+    var result = ""
+    for (var i = 1; i <= number; i++) {
+        result = result + " " + theString
+    }
+    console.log(result)
+}
+
