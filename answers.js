@@ -100,3 +100,14 @@ function reverse(theString) {
 reverse("hello")
 
 
+
+// Factorial from input number
+// Had to go back to an old email hint from Ziad to finish this one :(
+function factorial(number) {
+    var result = 1;
+     for (var i = 1; i <=number; i++) {
+      result = result * i;
+     }
+     console.log(result)
+}
+
